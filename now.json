@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "kairusds",
+  "alias": "kairusds.now.sh",
+  "builds": [
+    {
+      "src": "*.md",
+      "use": "@now/md"
+    }
+  ]
+}
