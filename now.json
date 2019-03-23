@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "kairusds",
-  "alias": "kairusds.now.sh",
+  "alias": "harveyhans.now.sh",
   "builds": [
     {
       "src": "*.md",
