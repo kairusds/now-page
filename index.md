@@ -1,6 +1,7 @@
 # `harveyhans / kairusds`
 
-> Hello there.
+```
+Hello there.
 I am atrocious.
 I love anime.
 I am a lolicon.
@@ -19,7 +20,5 @@ I am life.
 I have lived.
 I have died.
 Repetitions neverending.
-> > **I have come to fruition.**
-
-# OwO
-# UwU
+```
+### **I have come to fruition.**
