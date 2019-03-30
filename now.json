@@ -4,8 +4,31 @@
   "alias": "harveyhans.now.sh",
   "builds": [
     {
+      "src": "*.css",
+      "use": "@now/static"
+    },
+    {
       "src": "*.md",
-      "use": "@now/md"
+      "use": "@now/md",
+      "config": {
+        "title": "harveyhans / kairusds",
+        "language": "en",
+        "meta": [
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+           },
+           {
+             "name": "author",
+             "content": "harveyhans (kairusds)"
+           },
+          {
+            "name": "description",
+            "content": "hello there gaymer"
+          }
+        ],
+        "css": "style.min.css"
+      }
     }
   ]
 }
